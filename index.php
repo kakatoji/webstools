@@ -110,7 +110,7 @@
                         player = new YT.Player("player", {
                             height: "200%",
                             width: "100%",
-                            vidoId: '<?php echo $um[$uk];?>',
+                            videoId: '<?php echo $um[$ck];?>',
                             events: {
                                 onReady: onPlayerReady,
                                 onStateChange: onPlayerStateChange
